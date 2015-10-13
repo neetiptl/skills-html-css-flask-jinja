@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Skills-Web</title>
-    <link rel="stylesheet" type="text/css" href="/Users/suman/Desktop/Week_3/skills-flask/static/styles.css">
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
     <title>Skills-HTML-CSS</title>
     <h1> Welcome to the Ubermelon job portal.</h1>
     <h3> Please provide the information requested below in order to apply. </h3>
 </head>
 <body>
-    <form action="application-response">
+    <form action="/application-response" method="POST">
         First Name:
         <input type= "text" class="yellow" name="fname"><br>
         Last Name:

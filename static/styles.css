@@ -1,7 +1,6 @@
 .yellow {
     background-color:yellow;
-/*    color: yellow;
-*/}
+}
 
 #lname {
     font-weight:bold;
@@ -10,4 +9,5 @@
 h3 {
     border-style:solid;
     border-width:small;
+    border-color: green;
 }
